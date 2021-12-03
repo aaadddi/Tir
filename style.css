@@ -1,0 +1,481 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  cursor: pointer;
+}
+.win1 {
+  height: 100vh;
+  background-image: url(./Images/aa.png);
+  background-size: cover;
+  width: 100%;
+  
+}
+.win1 h4 {
+
+  position: relative;
+  right: -35em;
+  padding-top: 9em;
+  width: fit-content;
+
+  font-weight: lighter;
+  color: aliceblue;
+  font-size: 1.5em;
+}
+.win1 h1 {
+  
+  padding-top: 0.5em;
+  width: fit-content;
+  
+  position: relative;
+  right: -12em;
+  font-weight: bolder;
+  color: aliceblue;
+  font-size: 3em;
+}
+.win1 h6 {
+  position: relative;
+  right: -31em;
+  padding-top: 1em;
+  width: fit-content;
+
+  font-weight: lighter;
+  color: aliceblue;
+  font-size: 1.5em;
+}
+.win2 {
+  background-color: aliceblue;
+}
+.win2 p {
+  line-height: 1.6;
+  margin: auto;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  width: 70%;
+  font-size: 1.4em;
+  font-weight: lighter;
+}
+.win3 {
+  padding-top: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+.hor {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2em;
+}
+.card {
+  border-radius: 10px;
+  width: 17em;
+  height: 26.65em;
+
+  background-size: cover;
+  overflow: hidden;
+  border: 2px solid black;
+}
+
+.card h5 {
+  padding-top: 11em;
+  padding-left: 1em;
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: white;
+ 
+}
+.card p {
+ 
+  padding-top: 0.3em;
+  padding-left: 1.3em;
+  color: aliceblue;
+}
+#bp2018 {
+  background-image: url(./Images/BPCARD.PNG);
+}
+#cacw2016 {
+  background-image: url(./Images/cacw.PNG);
+}
+#ae2019 {
+  background-image: url(./Images/ae.PNG);
+}
+#aiw2018 {
+  background-image: url(./Images/aiw.PNG);
+}
+#m2017 {
+  background-image: url(./Images/m.PNG);
+}
+#goe2016 {
+  background-image: url(./Images/goe.PNG);
+}
+#gou2014 {
+  background-image: url(./Images/gou.PNG);
+}
+#ft2013 {
+  background-image: url(./Images/ft.PNG);
+}
+#tkh2012 {
+  background-image: url(./Images/tkh.PNG);
+}
+.movietxt{
+  margin: auto;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 4em;
+}
+.win4{
+  background-color: aliceblue;
+  padding-top: 10em;
+ padding-left: 10%;
+ padding-right: 10%;
+ 
+}
+.win4_win{
+
+  width: 80%;
+  margin: auto;
+ 
+ align-items: center;
+}
+iframe{
+ 
+  height:34em;
+  width: 100%;
+  box-shadow: 2px 2px 10px black;
+  
+ 
+  
+}
+.by{
+  padding-top: 2em;
+  display: flex;
+  justify-content: space-evenly;
+ width: fit-content;
+  margin: auto;
+}
+.by p{
+  font-size: 2em;
+  padding: 1em;
+}
+.by img{
+  height: 5em;
+  width: 10em;
+}
+.win5{
+  margin-top: 10em;
+}
+.birth{
+  display: flex;
+  justify-content: space-between;
+}
+.birth img{
+  height: 25em;
+}
+.birth p{
+  padding-top: 12em;
+  line-height: 1.6;
+  width: 60%;
+  padding:3em;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+.death{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3em;
+}
+.death img{
+  height: 25em;
+
+}
+.death p{
+  line-height: 1.6;
+  font-weight: lighter;
+  width: 60%;
+  padding: 3em;
+  font-size: 1.5em;
+}
+.win6{
+  height: 100vh;
+  background-image:url(./Images/quoteback.png) ;
+  background-size: cover;
+  
+}
+.win6 h2{
+  color: aliceblue;
+  margin: auto;
+  width: 60%;
+  text-align: center;
+  padding-top: 13em;
+  font-weight: bolder;
+  font-size: 2em;
+
+}
+.win7{
+  height: 70vh;
+  background-color: aliceblue;
+  width: 100%;
+}
+.win7 h1{
+  padding-top: 5em;
+  padding-left: 8em;
+  font-size: 3em;
+  width: 80%;
+  margin: auto;
+  
+}
+@media only screen and (max-width: 1224px) {
+  .win1 h4 {
+    position: static;
+    margin: auto;
+
+    width: fit-content;
+  }
+  .win1 h1 {
+    position: static;
+
+    margin: auto;
+  }
+  .win1 h6 {
+    position: static;
+    margin: auto;
+  }
+  .win2 p {
+    padding-top: 2.6em;
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .win1 h4 {
+    position: static;
+    margin: auto;
+    font-size: 1em;
+    width: fit-content;
+    padding-top: 16em;
+  }
+  .win1 h1 {
+    position: static;
+    font-size: 1.54em;
+    margin: auto;
+    text-align: center;
+  }
+  .win1 h6 {
+    position: static;
+    margin: auto;
+    font-size: 1em;
+  }
+  .win2 p {
+    padding-top: 2.6em;
+    font-size: 1em;
+  }
+  .by{
+    padding-top: 0;
+    display: flex;
+    justify-content: space-evenly;
+   width: fit-content;
+    margin: auto;
+  }
+  .by p{
+    font-size: 1.5em;
+  }
+  .by img{
+    height: 3em;
+    width: 8em;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .win1 h4 {
+    position: static;
+    margin: auto;
+    font-size: 0.8em;
+    width: fit-content;
+    padding-top: 16em;
+  }
+  .win1 h1 {
+    position: static;
+    font-size: 1.2em;
+    margin: auto;
+    text-align: center;
+  }
+  .win1 h6 {
+    position: static;
+    margin: auto;
+    font-size: 0.8em;
+  }
+  .win2 p {
+    padding-top: 2.6em;
+    font-size: 0.5em;
+  }
+}
+@media only screen and (max-width: 1224px) {
+  .win1 h4 {
+    position: static;
+    margin: auto;
+
+    width: fit-content;
+  }
+  .win1 h1 {
+    position: static;
+
+    margin: auto;
+  }
+  .win1 h6 {
+    position: static;
+    margin: auto;
+  }
+  .win2 p {
+    padding-top: 2.6em;
+    font-size: 1.2em;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .win7{
+    height: 70vh;
+    background-color: aliceblue;
+    width: 100%;
+  }
+  .win7 h1{
+    padding-top: 5em;
+    
+    font-size: 1.5em;
+    width: 100%;
+    margin: auto;
+    
+  }
+  .win1 h4 {
+    position: static;
+    margin: auto;
+    font-size: 1.2em;
+    width: fit-content;
+    padding-top: 10em;
+  }
+  .win1 h1 {
+    position: static;
+    font-size: 2em;
+    margin: auto;
+  }
+  .win1 h6 {
+    position: static;
+    margin: auto;
+    font-size: 1.2em;
+  }
+  .win2 p {
+    padding-top: 2.6em;
+    font-size: 1.2em;
+  }
+  .win3 {
+    padding-top: 5em;
+    display: block;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .hor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1em;
+  }
+
+  .card {
+    margin: auto;
+  }
+  .win4{
+    background-color: aliceblue;
+   
+   padding-left: 0;
+   padding-right: 0;
+   
+  }
+  .movietxt{
+    margin: auto;
+    font-size: 1em;
+    padding: 2em;
+  }
+  .win4_win{
+  
+    width: 100%;
+    margin: auto;
+   
+   align-items: center;
+  }
+  iframe{
+    
+    height:34em;
+    width: 100%;
+    box-shadow: 2px 2px 10px black;
+    
+   
+    
+  }
+  .by{
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-evenly;
+   width: fit-content;
+    margin: auto;
+  }
+  .by p{
+    font-size: 2em;
+    padding: 1em;
+  }
+  .by img{
+    height: 5em;
+    width: 10em;
+  }
+  .birth{
+    display: block;
+    
+  }
+  .birth img{
+    height: 50vh;
+    width: 100%;
+  }
+  .birth p{
+    padding-top: 5em;
+    line-height: 1.6;
+    font-weight: lighter;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  .death{
+    display: block;
+   
+    margin-top: 3em;
+  }
+  .death img{
+    height: 50vh;
+    width: 100%;
+    margin: auto;
+  
+  }
+  .death p{
+    padding-top: 5em;
+        line-height: 1.6;
+    font-weight: lighter;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  .win6{
+    background-position-x:-15em;
+  }
+  .win6 h2{ 
+    padding-top: 19em;
+    font-size: 1.2em;
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 930px) {
+  .card {
+    border-radius: 10px;
+    width: 14em;
+    height: 22.65em;
+  }
+}
